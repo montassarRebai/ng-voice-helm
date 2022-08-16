@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  go-k8s:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-16T08:14:53.707182793-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 0c8c8fe82883a33b399b68fd2746e75f7ec7dbd81d1ad6197e1a0d07748ba7ff
+    name: go-k8s
+    type: application
+    urls:
+    - https://github.com/montassarRebai/ng-voice-helm/go-k8s-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-16T08:14:53.706600014-07:00"
