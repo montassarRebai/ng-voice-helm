@@ -34,12 +34,14 @@ spec:
               protocol: TCP
           livenessProbe:
             initialDelaySeconds: 30
-            tcpSocket:
-              port: http
+            exec:
+                command:
+                - pwd
           readinessProbe:
             initialDelaySeconds: 30
-            tcpSocket:
-              port: http
+            exec:
+                command:
+                - pwd
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
